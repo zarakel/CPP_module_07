@@ -1,0 +1,18 @@
+#include "Array.tpp"
+
+int	main( )
+{
+	size_t t = 5;
+
+	::Array<int> a;
+	::Array<char> b(t);
+	::Array<char> c(b);
+	
+	char d[] = "cham";
+	c = d;
+	c.Get_Data();
+/*	int * n = new int (5);
+	for (size_t i = 0; i != t; i++)
+		std::cout << "n = " << n << std::endl;*/
+	return 0;
+}
