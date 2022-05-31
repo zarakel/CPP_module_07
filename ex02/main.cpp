@@ -1,4 +1,6 @@
 #include "Array.tpp"
+#include "Array.hpp"
+
 struct Not_Happening : std::exception
 {
 	const char * what() const throw() {return "Not Happening !\n";}

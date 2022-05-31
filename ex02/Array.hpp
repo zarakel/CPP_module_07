@@ -1,5 +1,5 @@
-#ifndef WHATEVER_HPP
-# define WHATEVER_HPP
+#ifndef ARRAY_HPP
+# define ARRAY_HPP
 # include <string>
 # include <iostream>
 
