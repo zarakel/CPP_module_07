@@ -12,14 +12,15 @@ int	main( )
 	::Array<char> b(t);
 	::Array<char> c(b);
 	::Array<int> e(t);
+	::Array<int> const f;
 	
-	size_t i = 6;
+	size_t i = 4;
 	try
 	{
-		if (i > e.size())
+		if (i > b.size())
 			throw Not_Happening();
 		else
-			std::cout << e.x[i] << std::endl;
+			std::cout << "L'element i = " << b.x[i] << " et la taille du tableau est " << b.size() << std::endl;
 	}
 	catch (std::exception &e)
 	{
